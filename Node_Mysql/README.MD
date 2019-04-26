@@ -1,16 +1,18 @@
 # RESTFul em NodeJS com Banco de Dados MySQL
 
-### Módulos usados
+### Modulos usados
 
 * NodeJS
-* Restify
-* Restify-errors
 * MySQL
 * Knex
 
-### Métodos usados
+### Metodos usados
 * GET
 * GET/ID
 * POST
 * PUT
 * DELETE
+
+Â´Â´Â´ Tabelas Usadas
+* users
+* user_types
