@@ -5,6 +5,10 @@
 * NodeJS
 * MySQL
 * Knex
+* Bcryptjs
+* Crypto
+* JWT (JSON Web Token)
+
 
 ### Metodos usados
 * GET
@@ -13,6 +17,11 @@
 * PUT
 * DELETE
 
-´´´ Tabelas Usadas
+### Url de Autenticacao
+* /auth/authenticate
+* /auth/register
+* /auth/forgot-password
+
+´´´Tabelas Usadas
 * users
 * user_types

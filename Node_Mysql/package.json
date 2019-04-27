@@ -1,0 +1,24 @@
+{
+  "name": "node_mysql",
+  "version": "1.0.0",
+  "description": "### Modulos usados",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fs": "^0.0.1-security",
+    "knex": "^0.16.5",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.18.11",
+    "path": "^0.12.7",
+    "restify-errors": "^7.0.0",
+    "restify": "^8.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
