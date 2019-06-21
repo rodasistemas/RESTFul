@@ -20,8 +20,14 @@ function generateToken(params = {}){
 // Routers
 //===========================================================================
 router.get('/test',async (req,res,next)=>{
-  const list = await users.list();
-  res.send(list);
+    console.log("Entrou alguem");
+    res.send('Ok');
+  });
+
+router.post('/test',async (req,res,next)=>{
+    console.log('POST');
+    console.log(req.body);
+  res.send('ok');
 });
 
 router.post('/register',async (req,res,next)=>{
@@ -31,6 +37,7 @@ router.post('/register',async (req,res,next)=>{
 });
 router.post('/authenticate', async (req,res)=>{
   const { email, password } = req.body;
+  console.log("Tentativa de Login");
   const user = await users.findEmail({ email });
   if(!user)
       return res.status(400).send({error:'User not found.'});
